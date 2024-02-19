@@ -7,7 +7,6 @@ for(const seat of seats){
         if(newSeat>4){
             seat.removeEventListener()
         }
-        console.log(count.length);
         seat.style.backgroundColor='green'
         const seatNumber = seat.innerText
         const className = 'economy'
